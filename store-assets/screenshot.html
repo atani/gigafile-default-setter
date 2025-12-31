@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1280px;
+      height: 800px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', sans-serif;
+    }
+    .title {
+      color: white;
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 16px;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .subtitle {
+      color: rgba(255,255,255,0.9);
+      font-size: 24px;
+      margin-bottom: 60px;
+    }
+    .popup-container {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      padding: 24px;
+      width: 320px;
+    }
+    .popup-header {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .popup-label {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+    .popup-select {
+      width: 100%;
+      padding: 12px 16px;
+      font-size: 16px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      background: white;
+      color: #333;
+      cursor: pointer;
+    }
+    .popup-status {
+      margin-top: 16px;
+      padding: 10px;
+      background: #e8f5e9;
+      border-radius: 6px;
+      color: #2e7d32;
+      font-size: 13px;
+      text-align: center;
+    }
+    .feature-list {
+      display: flex;
+      gap: 40px;
+      margin-top: 60px;
+    }
+    .feature {
+      color: white;
+      text-align: center;
+    }
+    .feature-icon {
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+    .feature-text {
+      font-size: 16px;
+      opacity: 0.95;
+    }
+  </style>
+</head>
+<body>
+  <div class="title">GigaFile Default Setter</div>
+  <div class="subtitle">ギガファイル便の保存期間を自動設定</div>
+
+  <div class="popup-container">
+    <div class="popup-header">GigaFile Default Setter</div>
+    <div class="popup-label">保存期間のデフォルト値</div>
+    <select class="popup-select">
+      <option>100日</option>
+    </select>
+    <div class="popup-status">✓ 設定を保存しました</div>
+  </div>
+
+  <div class="feature-list">
+    <div class="feature">
+      <div class="feature-icon">⚡</div>
+      <div class="feature-text">ワンクリック設定</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🔄</div>
+      <div class="feature-text">自動で適用</div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🔒</div>
+      <div class="feature-text">プライバシー重視</div>
+    </div>
+  </div>
+</body>
+</html>
