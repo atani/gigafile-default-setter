@@ -2,46 +2,34 @@
 
 ギガファイル便（gigafile.nu）の保存期間デフォルト値を自動設定するChrome拡張機能
 
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/YOUR_EXTENSION_ID)](https://chrome.google.com/webstore/detail/YOUR_EXTENSION_ID)
+
 ## 機能
 
 - ギガファイル便にアクセス時、保存期間を自動的に設定値に変更
-- 7日 / 14日 / 30日 / 60日 / 100日 から選択可能
-- 設定はブラウザに保存され、デバイス間で同期
+- 3日 / 5日 / 7日 / 14日 / 30日 / 60日 / 100日 から選択可能
+- 設定はブラウザに保存され、Googleアカウントでデバイス間同期
 
 ## インストール
 
-### Chrome Web Store（公開後）
-[Chrome Web Store](#) からインストール
-
-### 開発版
-1. このリポジトリをクローン
-   ```bash
-   git clone https://github.com/atani/gigafile-default-setter.git
-   ```
-2. Chromeで `chrome://extensions/` を開く
-3. 右上の「デベロッパーモード」をON
-4. 「パッケージ化されていない拡張機能を読み込む」をクリック
-5. クローンしたフォルダを選択
+[Chrome Web Store](https://chrome.google.com/webstore/detail/YOUR_EXTENSION_ID) からインストール
 
 ## 使い方
 
 1. ツールバーの拡張機能アイコンをクリック
-2. 保存期間のデフォルト値を選択（初期値: 100日）
-3. ギガファイル便を開くと自動的に設定が適用される
+2. 保存期間のデフォルト値を選択
+3. ギガファイル便（gigafile.nu）を開くと自動的に設定が適用される
 
-## 開発
+## スクリーンショット
 
-```bash
-# アイコン生成
-npm install
-node scripts/generate-icons.js
+![Screenshot](screenshots/screenshot1.png)
 
-# スクリーンショット生成
-node scripts/generate-screenshots.js
+## プライバシー
 
-# ZIPパッケージ作成
-zip -r gigafile-default-setter.zip manifest.json popup/ content/ icons/
-```
+この拡張機能は：
+- gigafile.nu でのみ動作します
+- ユーザーデータを外部に送信しません
+- 設定値のみをローカルに保存します
 
 ## ライセンス
 
