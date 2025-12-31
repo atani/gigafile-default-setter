@@ -22,7 +22,7 @@
 
 ## スクリーンショット
 
-![Screenshot](screenshots/screenshot1.png)
+![Screenshot](store-assets/screenshot-1280x800.png)
 
 ## プライバシー
 
