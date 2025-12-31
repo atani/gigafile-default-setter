@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5EEAD4"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#tealGrad)"/>
+  
+  <!-- タイマー/時計（シンプル） -->
+  <g transform="translate(64, 50)">
+    <!-- 外円 -->
+    <circle cx="0" cy="0" r="28" fill="white"/>
+    <circle cx="0" cy="0" r="22" fill="none" stroke="#0D9488" stroke-width="2" opacity="0.3"/>
+    
+    <!-- 時計の目盛り（4つだけ） -->
+    <g stroke="white" stroke-width="3" stroke-linecap="round">
+      <line x1="0" y1="-18" x2="0" y2="-14" stroke="#0D9488" opacity="0.5"/>
+      <line x1="0" y1="14" x2="0" y2="18" stroke="#0D9488" opacity="0.5"/>
+      <line x1="-18" y1="0" x2="-14" y2="0" stroke="#0D9488" opacity="0.5"/>
+      <line x1="14" y1="0" x2="18" y2="0" stroke="#0D9488" opacity="0.5"/>
+    </g>
+    
+    <!-- 針 -->
+    <line x1="0" y1="2" x2="0" y2="-12" stroke="#0D9488" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="2" x2="10" y2="6" stroke="#0D9488" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#0D9488"/>
+  </g>
+  
+  <!-- スライダーバー -->
+  <rect x="24" y="94" width="80" height="8" rx="4" fill="white" fill-opacity="0.3"/>
+  <rect x="24" y="94" width="56" height="8" rx="4" fill="white"/>
+  
+  <!-- スライダーつまみ -->
+  <circle cx="80" cy="98" r="12" fill="white"/>
+  <circle cx="80" cy="98" r="7" fill="#F97316"/>
+</svg>
