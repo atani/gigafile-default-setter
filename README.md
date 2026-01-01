@@ -2,7 +2,7 @@
 
 ギガファイル便（gigafile.nu）の保存期間デフォルト値を自動設定するChrome拡張機能
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/YOUR_EXTENSION_ID)](https://chrome.google.com/webstore/detail/YOUR_EXTENSION_ID)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ekmhmeomjelamfiidhmdnlhfdholcnjp)](https://chromewebstore.google.com/detail/gigafile-default-setter/ekmhmeomjelamfiidhmdnlhfdholcnjp)
 
 ## 機能
 
@@ -12,7 +12,7 @@
 
 ## インストール
 
-[Chrome Web Store](https://chrome.google.com/webstore/detail/YOUR_EXTENSION_ID) からインストール
+[Chrome Web Store](https://chromewebstore.google.com/detail/gigafile-default-setter/ekmhmeomjelamfiidhmdnlhfdholcnjp) からインストール
 
 ## 使い方
 
