@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate manifest.json
+        run: |
+          echo "Checking manifest.json syntax..."
+          cat manifest.json | python3 -m json.tool > /dev/null
+          echo "manifest.json is valid JSON"
+
+      - name: Validate JavaScript syntax
+        run: |
+          echo "Checking JavaScript syntax..."
+          node --check content/content.js
+          node --check popup/popup.js
+          echo "All JavaScript files have valid syntax"
+
+      - name: Check required files exist
+        run: |
+          echo "Checking required files..."
+          test -f manifest.json
+          test -f content/content.js
+          test -f popup/popup.html
+          test -f popup/popup.js
+          test -f popup/popup.css
+          test -f icons/icon16.png
+          test -f icons/icon48.png
+          test -f icons/icon128.png
+          echo "All required files exist"
