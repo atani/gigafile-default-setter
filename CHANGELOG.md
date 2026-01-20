@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/atani/gigafile-default-setter/compare/v1.1.0...v1.1.1) (2026-01-20)
+
+
+### Bug Fixes
+
+* sync manifest version and add manual publish workflow ([#9](https://github.com/atani/gigafile-default-setter/issues/9)) ([b4a1c12](https://github.com/atani/gigafile-default-setter/commit/b4a1c12981f1453e2da4701dff1fe6e1e1f6367c))
+
 ## [1.1.0](https://github.com/atani/gigafile-default-setter/compare/v1.0.1...v1.1.0) (2026-01-20)
 
 
