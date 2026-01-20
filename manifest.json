@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "GigaFile Default Setter",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "ギガファイル便の保存期間デフォルト値を自動設定",
   "permissions": [
     "storage"
