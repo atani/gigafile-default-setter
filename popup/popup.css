@@ -64,3 +64,19 @@ select:focus {
 .status.show {
   opacity: 1;
 }
+
+.donate {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.donate a {
+  font-size: 11px;
+  color: #999;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.donate a:hover {
+  color: #ea4aaa;
+}

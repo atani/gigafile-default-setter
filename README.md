@@ -31,6 +31,12 @@
 - ユーザーデータを外部に送信しません
 - 設定値のみをローカルに保存します
 
+## サポート
+
+この拡張機能が役に立ったら、開発を支援していただけると嬉しいです。
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?logo=github)](https://github.com/sponsors/atani)
+
 ## ライセンス
 
 MIT
