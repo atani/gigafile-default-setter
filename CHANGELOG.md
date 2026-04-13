@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.2](https://github.com/atani/gigafile-default-setter/compare/v1.1.1...v1.1.2) (2026-04-13)
+
+
+### Bug Fixes
+
+* manifest.jsonのバージョンをリリースv1.1.1に合わせる ([#12](https://github.com/atani/gigafile-default-setter/issues/12)) ([44989bf](https://github.com/atani/gigafile-default-setter/commit/44989bf074582bcc8a64dd40b933f3acecc03084))
+* release-pleaseがconfig fileを参照するよう修正 ([#14](https://github.com/atani/gigafile-default-setter/issues/14)) ([e37792d](https://github.com/atani/gigafile-default-setter/commit/e37792dc360877700916a83c129e77202ebd1af8))
+
 ## [1.1.1](https://github.com/atani/gigafile-default-setter/compare/v1.1.0...v1.1.1) (2026-01-20)
 
 
