@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/atani/gigafile-default-setter/compare/v1.1.2...v1.1.3) (2026-06-22)
+
+
+### Bug Fixes
+
+* **ci:** auto-fix pinact failure ([#23](https://github.com/atani/gigafile-default-setter/issues/23)) ([705c8f5](https://github.com/atani/gigafile-default-setter/commit/705c8f555fe1c6218372ba6405df8a55f40fd47e))
+
 ## [1.1.2](https://github.com/atani/gigafile-default-setter/compare/v1.1.1...v1.1.2) (2026-04-27)
 
 
